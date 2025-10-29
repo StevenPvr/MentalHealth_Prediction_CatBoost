@@ -1,0 +1,19 @@
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+exclude = '\.(git|mypy_cache|ruff_cache|venv|eggs|egg-info)/|^(data|documentation|notebook|plots|results)/'
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src"]
+extend-exclude = ["data", "documentation", "notebook", "plots", "results"]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.pyright]
+include = ["src"]
+typeCheckingMode = "basic"
+reportMissingImports = "warning"
+reportMissingTypeStubs = "warning"
+pythonVersion = "3.10"

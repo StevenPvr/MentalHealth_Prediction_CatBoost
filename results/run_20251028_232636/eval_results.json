@@ -1,0 +1,140 @@
+{
+  "metrics": {
+    "logloss": 0.4802464473709013,
+    "auc": 0.8381412678273177,
+    "accuracy": 0.7517506600849501,
+    "f1": 0.7597533653044976,
+    "recall": 0.7990963620783672
+  },
+  "fairness_gender": {
+    "overall": {
+      "logloss": 0.4802464473709013,
+      "auc": 0.8381412678273177
+    },
+    "by_group": {
+      "male": {
+        "auc": 0.8254453371804775,
+        "logloss": 0.4941240972765573,
+        "count": 46032
+      },
+      "female": {
+        "auc": 0.8789572807969803,
+        "logloss": 0.3777735599058446,
+        "count": 6234
+      }
+    },
+    "gaps": {
+      "auc_gap": 0.0535119436165028
+    }
+  },
+  "fairness_country": {
+    "overall": {
+      "logloss": 0.4802464473709013,
+      "auc": 0.8381412678273177
+    },
+    "by_group": {
+      "usa": {
+        "auc": 0.7995403769173703,
+        "logloss": 0.5260445699929607,
+        "count": 30950
+      },
+      "uk": {
+        "auc": 0.8495655136672245,
+        "logloss": 0.44568440493822403,
+        "count": 9522
+      },
+      "others": {
+        "auc": 0.8791211982590345,
+        "logloss": 0.39063153032494885,
+        "count": 8979
+      },
+      "canada": {
+        "auc": 0.9003453928761898,
+        "logloss": 0.3794649955225241,
+        "count": 2815
+      }
+    },
+    "gaps": {
+      "auc_gap": 0.10080501595881941
+    }
+  },
+  "shap_plot_path": "/Users/steven/Documents/Programmation/MentalHealth/plots/shap_summary.png",
+  "shap_vs_cramers": [
+    {
+      "feature": "familyhistory",
+      "mean_shap": -0.020116301110552768,
+      "cramers_v": 0.3610716627442749
+    },
+    {
+      "feature": "selfemployed",
+      "mean_shap": -0.01698069738470067,
+      "cramers_v": 0.03801772647980774
+    },
+    {
+      "feature": "gender",
+      "mean_shap": 0.01636482766500523,
+      "cramers_v": 0.14733341172628403
+    },
+    {
+      "feature": "increasingstress",
+      "mean_shap": 0.010643413042413365,
+      "cramers_v": 0.005296492021262077
+    },
+    {
+      "feature": "mentalhealthinterview",
+      "mean_shap": -0.008822309599192587,
+      "cramers_v": 0.09092866206538414
+    },
+    {
+      "feature": "country",
+      "mean_shap": 0.003288223530697214,
+      "cramers_v": 0.1229740638850217
+    },
+    {
+      "feature": "workinterest",
+      "mean_shap": 0.001897435111765048,
+      "cramers_v": 0.003337508984659491
+    },
+    {
+      "feature": "occupation",
+      "mean_shap": 0.0016831493467993773,
+      "cramers_v": 0.009094279171021695
+    },
+    {
+      "feature": "daysindoors",
+      "mean_shap": -0.0014925835895748922,
+      "cramers_v": 0.004077139529489037
+    },
+    {
+      "feature": "habitschange",
+      "mean_shap": 0.0013442276006061789,
+      "cramers_v": 0.0010286526632368948
+    },
+    {
+      "feature": "socialweakness",
+      "mean_shap": -0.001011575937092665,
+      "cramers_v": 0.0031646943634809585
+    },
+    {
+      "feature": "mentalhealthhistory",
+      "mean_shap": 0.0007298634931404295,
+      "cramers_v": 0.005251675754014703
+    },
+    {
+      "feature": "moodswings",
+      "mean_shap": 0.000609484113471914,
+      "cramers_v": 0.0035764452392250067
+    },
+    {
+      "feature": "careoptions",
+      "mean_shap": -0.000512436775060217,
+      "cramers_v": 0.28970287894235924
+    },
+    {
+      "feature": "copingstruggles",
+      "mean_shap": 4.6136957691939214e-05,
+      "cramers_v": 0.006681824804564814
+    }
+  ],
+  "timestamp": "20251028_232636"
+}

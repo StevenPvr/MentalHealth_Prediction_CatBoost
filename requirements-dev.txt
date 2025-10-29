@@ -1,0 +1,8 @@
+# Dépendances additionnelles pour le développement et les tests
+-r requirements.txt
+pytest>=8.0,<8.3
+black>=24.3,<24.6
+ruff>=0.3.4,<0.5
+pyright>=1.1.357,<1.2
+pandas-stubs>=2.2.0
+types-pytz
