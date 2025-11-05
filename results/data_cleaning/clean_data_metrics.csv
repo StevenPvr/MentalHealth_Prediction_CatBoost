@@ -1,0 +1,5 @@
+step,rows_before,rows_after,columns_before,columns_after,rows_delta,columns_delta,note
+load_dataset,261328,261328,17,17,0,0,Raw dataset
+remove_duplicate_columns,261328,261328,17,16,0,-1,
+handle_missing_values,261328,261328,16,16,0,0,
+normalize_text,261328,261328,16,16,0,0,

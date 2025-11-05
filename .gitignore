@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+mentalhealth/
+mental_health/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large, source of truth is external)
+data/*
+!data/README.md
+!data/dataset.csv
+!data/dataset_cleaned.csv
+!data/splits.csv
+
+# Models and training logs
+model_saved/
+catboost_info/
+
+# Caches and logs
+.cache/
+pytest_cache/
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Reports and plots
+results/**
+!results/**/
+!results/**/eval_results.md
+!results/**/eval_results.json
+
+plots/*
+!plots/shap_summary.png
+
+# Explicitly include LLM assistance note (ensure not ignored)
+!documentation/LLM_assistance_methodologie.txt

@@ -1,0 +1,42 @@
+[
+  {
+    "step": "load_dataset",
+    "rows_before": 261328,
+    "rows_after": 261328,
+    "columns_before": 17,
+    "columns_after": 17,
+    "rows_delta": 0,
+    "columns_delta": 0,
+    "note": "Raw dataset"
+  },
+  {
+    "step": "remove_duplicate_columns",
+    "rows_before": 261328,
+    "rows_after": 261328,
+    "columns_before": 17,
+    "columns_after": 16,
+    "rows_delta": 0,
+    "columns_delta": -1,
+    "note": ""
+  },
+  {
+    "step": "handle_missing_values",
+    "rows_before": 261328,
+    "rows_after": 261328,
+    "columns_before": 16,
+    "columns_after": 16,
+    "rows_delta": 0,
+    "columns_delta": 0,
+    "note": ""
+  },
+  {
+    "step": "normalize_text",
+    "rows_before": 261328,
+    "rows_after": 261328,
+    "columns_before": 16,
+    "columns_after": 16,
+    "rows_delta": 0,
+    "columns_delta": 0,
+    "note": ""
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "step": "shuffle_dataset",
+    "rows_before": 261328,
+    "rows_after": 261328,
+    "rows_delta": 0,
+    "note": "random_state=42"
+  },
+  {
+    "step": "split_train_test",
+    "rows_before": 261328,
+    "rows_after": 261328,
+    "rows_delta": 0,
+    "train_rows": 209062,
+    "test_rows": 52266,
+    "note": "random_state=42"
+  }
+]

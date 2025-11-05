@@ -1,0 +1,91 @@
+I - Objectif du projet 
+
+L'objectif du projet est de prédire la variable "treatment" à partir
+de l'ensemble des autres variables. Cela permettra de comprendre quelles
+variables donnent le plus d'information au modèle. L'objectif étant d'investiguer 
+la connexion entre le style de vie et la santé mentale.
+
+II - Dataset
+
+Le dataset provient de Kaggle : https://www.kaggle.com/datasets/alamshihab075/mental-health-dataset/data
+
+Il contient 261 330 lignes, 16 features, dont 1 qui sera la target.
+
+Il s'agit de données catégorielles individuelles sur des personnes assez variées
+sur leurs antécédents, l'activité quotidienne, mais aussi l'exploration des potentiels symptômes
+dépressif. 
+
+III - Démarche méthodologique
+
+A - Analyse exploratoire
+    1. Statistiques descriptives univariées
+        a. Fréquence des variables absolues et relatives
+        b. Mode
+        c. Nombre de valeurs uniques par variables (bruit)
+    2. Statistiques descriptives bivariées
+        a. Tableau de contingence
+        b. Chi² et p_value
+        c. Cramér's V
+
+Le contenu du IV sera décidé après analyse Statistiques.
+
+IV - Prétraitements et pipeline
+
+A - Nettoyage des données
+    1. Suppression des colonnes dupliquées
+    2. Gestion des valeurs manquantes
+    3. Normalisation des chaînes en minuscules
+    4. Nettoyage des valeurs textuelles (espaces, guillemets)
+
+B - Préparation des données
+    1. Encodage/typage catégoriel
+    2. Split train/test (80% / 20%)
+    3. Sauvegarde des splits au format Parquet et CSV
+
+V - Modélisation
+
+A - Modèle
+    1. CatBoostClassifier (adapté aux variables catégorielles)
+    2. Gestion native des catégories et valeurs manquantes
+
+B - Baseline
+    1. Régression logistique Ridge avec encodage OneHot
+    2. Optimisation du paramètre de régularisation C via cross-validation stratifiée (5-fold)
+    3. Évaluation sur le split test pour comparaison
+
+C - Hyperparamètres
+    1. Optimisation via Optuna avec cross-validation stratifiée K-fold (k=5) sur les données d’entraînement (split test exclu)
+       (espace de recherche compact: learning_rate, depth, l2_leaf_reg, bagging_temperature)
+    2. Sélection du meilleur jeu d'hyperparamètres en minimisant la Logloss (ou AUC en option)
+    3. Pruning Optuna (MedianPruner) pour arrêter tôt les essais sous-performants
+
+VI - Entraînement
+
+    1. Entraînement sur train (sans early stopping)
+    2. Sauvegarde du modèle entraîné (.cbm)
+    3. Journal d'entraînement CatBoost (catboost_info)
+
+VII - Évaluation
+
+    1. Métriques globales sur test: Logloss, AUC, Accuracy, F1, Recall
+    2. Pas de cross-validation pendant l'évaluation (prévenue lors de l'HPO)
+    3. Export des résultats sous forme JSON et Markdown (dossier results/)
+    4. Visualisation SHAP (impact directionnel moyen par variable)
+
+VIII - Équité (Fairness)
+
+    1. Évaluation par groupe sensible (ex: gender)
+    2. Évaluation par pays (country)
+    3. Indicateurs d'écarts (ex: AUC gap max-min)
+    4. Mise en garde: interpréter avec prudence en cas de déséquilibres de classes
+
+IX - Interprétabilité
+
+    1. SHAP summary (mean |SHAP|) pour identifier les variables contributrices
+    2. Analyse des top features et cohérence métier
+
+X - Reproductibilité et Organisation
+
+    1. Orchestration via src/main_global.py (clean -> prepare -> train -> eval)
+    2. Environnement Python isolé (virtualenv)
+    3. Contrôle de versions et .gitignore (données et artefacts lourds exclus)

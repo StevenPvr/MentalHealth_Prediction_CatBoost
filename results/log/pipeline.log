@@ -1,0 +1,1301 @@
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_prepare_writes_splits_and0/data/dataset_cleaned.parquet
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_prepare_writes_splits_and0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_prepare_writes_splits_and0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_prepare_writes_splits_and0/data/encoders_mappings.json
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_prepare_writes_splits_and0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_prepare_writes_splits_and0/data/splits.csv
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_training_writes_model0/data/dataset_cleaned.parquet
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_training_writes_model0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_training_writes_model0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_training_writes_model0/data/encoders_mappings.json
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_training_writes_model0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_training_writes_model0/data/splits.csv
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_evaluation_writes_artifac0/data/dataset_cleaned.parquet
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_evaluation_writes_artifac0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_evaluation_writes_artifac0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_evaluation_writes_artifac0/data/encoders_mappings.json
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_evaluation_writes_artifac0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_evaluation_writes_artifac0/data/splits.csv
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_ridge_baseline_pipeline_w0/data/dataset_cleaned.parquet
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_ridge_baseline_pipeline_w0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_ridge_baseline_pipeline_w0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:14:50 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_ridge_baseline_pipeline_w0/data/encoders_mappings.json
+2025-11-05 15:14:50 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_ridge_baseline_pipeline_w0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_ridge_baseline_pipeline_w0/data/splits.csv
+2025-11-05 15:14:50 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:14:50 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:14:50 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_ridge_baseline_pipeline_w0/data/splits.parquet
+2025-11-05 15:14:50 | INFO | src.baseline.logistic_regression | Loaded 96 train rows and 24 test rows
+2025-11-05 15:14:51 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 100.0000 (CV logloss: 0.0004)
+2025-11-05 15:14:51 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=100.0000
+2025-11-05 15:14:51 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.0003278923730847943, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:14:51 | INFO | src.baseline.main | Best C: 100.0000
+2025-11-05 15:14:51 | INFO | src.baseline.main | Test metrics: {'logloss': 0.0003278923730847943, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:14:51 | INFO | src.baseline.main | Results saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-25/test_ridge_baseline_pipeline_w0/results/run_20251105_151451/ridge_baseline_results.json
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_prepare_writes_splits_and0/data/dataset_cleaned.parquet
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_prepare_writes_splits_and0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_prepare_writes_splits_and0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_prepare_writes_splits_and0/data/encoders_mappings.json
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_prepare_writes_splits_and0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_prepare_writes_splits_and0/data/splits.csv
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_training_writes_model0/data/dataset_cleaned.parquet
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_training_writes_model0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_training_writes_model0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_training_writes_model0/data/encoders_mappings.json
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_training_writes_model0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_training_writes_model0/data/splits.csv
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_evaluation_writes_artifac0/data/dataset_cleaned.parquet
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_evaluation_writes_artifac0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_evaluation_writes_artifac0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_evaluation_writes_artifac0/data/encoders_mappings.json
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_evaluation_writes_artifac0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_evaluation_writes_artifac0/data/splits.csv
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_ridge_baseline_pipeline_w0/data/dataset_cleaned.parquet
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_ridge_baseline_pipeline_w0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_ridge_baseline_pipeline_w0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:15:00 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_ridge_baseline_pipeline_w0/data/encoders_mappings.json
+2025-11-05 15:15:00 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_ridge_baseline_pipeline_w0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_ridge_baseline_pipeline_w0/data/splits.csv
+2025-11-05 15:15:00 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:15:00 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:15:00 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_ridge_baseline_pipeline_w0/data/splits.parquet
+2025-11-05 15:15:00 | INFO | src.baseline.logistic_regression | Loaded 96 train rows and 24 test rows
+2025-11-05 15:15:01 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 100.0000 (CV logloss: 0.0004)
+2025-11-05 15:15:01 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=100.0000
+2025-11-05 15:15:01 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.0003278923730847943, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:15:01 | INFO | src.baseline.main | Best C: 100.0000
+2025-11-05 15:15:01 | INFO | src.baseline.main | Test metrics: {'logloss': 0.0003278923730847943, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:15:01 | INFO | src.baseline.main | Results saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-26/test_ridge_baseline_pipeline_w0/results/run_20251105_151501/ridge_baseline_results.json
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_prepare_writes_splits_and0/data/dataset_cleaned.parquet
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_prepare_writes_splits_and0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_prepare_writes_splits_and0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_prepare_writes_splits_and0/data/encoders_mappings.json
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_prepare_writes_splits_and0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_prepare_writes_splits_and0/data/splits.csv
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_training_writes_model0/data/dataset_cleaned.parquet
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_training_writes_model0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_training_writes_model0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_training_writes_model0/data/encoders_mappings.json
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_training_writes_model0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_training_writes_model0/data/splits.csv
+2025-11-05 15:16:58 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:16:58 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_training_writes_model0/data/splits.parquet
+2025-11-05 15:16:58 | INFO | src.training.main | Loaded 120 rows
+2025-11-05 15:16:58 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:16:58 | INFO | src.training.training | Filtered splits: resulting dataframe has 96 rows
+2025-11-05 15:16:58 | INFO | src.training.main | Train rows: 96
+2025-11-05 15:16:58 | INFO | src.training.main | Separating features and target
+2025-11-05 15:16:58 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:16:58 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_training_writes_model0/results/optimization/best_params.json
+2025-11-05 15:16:58 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:16:58 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:16:58 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:16:58 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:16:58 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:16:58 | INFO | src.training.main | Saving trained model
+2025-11-05 15:16:58 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_training_writes_model0/model_saved/catboost_model.cbm
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/data/dataset_cleaned.parquet
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/data/encoders_mappings.json
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/data/splits.csv
+2025-11-05 15:16:58 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:16:58 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/data/splits.parquet
+2025-11-05 15:16:58 | INFO | src.training.main | Loaded 120 rows
+2025-11-05 15:16:58 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:16:58 | INFO | src.training.training | Filtered splits: resulting dataframe has 96 rows
+2025-11-05 15:16:58 | INFO | src.training.main | Train rows: 96
+2025-11-05 15:16:58 | INFO | src.training.main | Separating features and target
+2025-11-05 15:16:58 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:16:58 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/results/optimization/best_params.json
+2025-11-05 15:16:58 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:16:58 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:16:58 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:16:58 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:16:58 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:16:58 | INFO | src.training.main | Saving trained model
+2025-11-05 15:16:58 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/model_saved/catboost_model.cbm
+2025-11-05 15:16:58 | INFO | src.eval.eval | Loading model from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/model_saved/catboost_model.cbm
+2025-11-05 15:16:58 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/data/splits.parquet
+2025-11-05 15:16:58 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 0.9453681232457121, 'auc': 0.4097222222222222, 'accuracy': 0.4166666666666667, 'f1': 0.4166666666666667, 'recall': 0.4166666666666667}
+2025-11-05 15:16:58 | INFO | src.eval.eval | SHAP summary plot saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/results/plots/shap_summary.png
+2025-11-05 15:16:58 | INFO | src.eval.eval | Saving evaluation results to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_evaluation_writes_artifac0/results/eval_run
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_ridge_baseline_pipeline_w0/data/dataset_cleaned.parquet
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_ridge_baseline_pipeline_w0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_ridge_baseline_pipeline_w0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:16:58 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_ridge_baseline_pipeline_w0/data/encoders_mappings.json
+2025-11-05 15:16:58 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_ridge_baseline_pipeline_w0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_ridge_baseline_pipeline_w0/data/splits.csv
+2025-11-05 15:16:58 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:16:58 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:16:58 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_ridge_baseline_pipeline_w0/data/splits.parquet
+2025-11-05 15:16:58 | INFO | src.baseline.logistic_regression | Loaded 96 train rows and 24 test rows
+2025-11-05 15:16:58 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 100.0000 (CV logloss: 0.0004)
+2025-11-05 15:16:58 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=100.0000
+2025-11-05 15:16:58 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.0003278923730847943, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:16:58 | INFO | src.baseline.main | Best C: 100.0000
+2025-11-05 15:16:58 | INFO | src.baseline.main | Test metrics: {'logloss': 0.0003278923730847943, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:16:58 | INFO | src.baseline.main | Results saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-27/test_ridge_baseline_pipeline_w0/results/run_20251105_151658/ridge_baseline_results.json
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_clean_and_prepare_pre0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_clean_and_prepare_pre0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_clean_and_prepare_pre0/data/dataset_cleaned.parquet
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_clean_and_prepare_pre0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_clean_and_prepare_pre0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_clean_and_prepare_pre0/data/encoders_mappings.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_clean_and_prepare_pre0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_clean_and_prepare_pre0/data/splits.csv
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_training_produces_mod0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_training_produces_mod0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_training_produces_mod0/data/dataset_cleaned.parquet
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_training_produces_mod0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_training_produces_mod0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_training_produces_mod0/data/encoders_mappings.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_training_produces_mod0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_training_produces_mod0/data/splits.csv
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_evaluation_writes_art0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_evaluation_writes_art0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_evaluation_writes_art0/data/dataset_cleaned.parquet
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_evaluation_writes_art0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_evaluation_writes_art0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_evaluation_writes_art0/data/encoders_mappings.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_evaluation_writes_art0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_evaluation_writes_art0/data/splits.csv
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:17:08 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:17:08 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_ridge_baseline_pipeli0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_ridge_baseline_pipeli0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_ridge_baseline_pipeli0/data/dataset_cleaned.parquet
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_ridge_baseline_pipeli0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_ridge_baseline_pipeli0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:17:08 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_ridge_baseline_pipeli0/data/encoders_mappings.json
+2025-11-05 15:17:08 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_ridge_baseline_pipeli0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_ridge_baseline_pipeli0/data/splits.csv
+2025-11-05 15:17:08 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:17:08 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:17:08 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_ridge_baseline_pipeli0/data/splits.parquet
+2025-11-05 15:17:08 | INFO | src.baseline.logistic_regression | Loaded 160 train rows and 40 test rows
+2025-11-05 15:17:09 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 100.0000 (CV logloss: 0.0121)
+2025-11-05 15:17:09 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=100.0000
+2025-11-05 15:17:09 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:17:09 | INFO | src.baseline.main | Best C: 100.0000
+2025-11-05 15:17:09 | INFO | src.baseline.main | Test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:17:09 | INFO | src.baseline.main | Results saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-28/test_e2e_ridge_baseline_pipeli0/results/run_20251105_151709/ridge_baseline_results.json
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_clean_and_prepare_pre0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_clean_and_prepare_pre0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_clean_and_prepare_pre0/data/dataset_cleaned.parquet
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_clean_and_prepare_pre0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_clean_and_prepare_pre0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_clean_and_prepare_pre0/data/encoders_mappings.json
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_clean_and_prepare_pre0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_clean_and_prepare_pre0/data/splits.csv
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_training_produces_mod0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_training_produces_mod0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_training_produces_mod0/data/dataset_cleaned.parquet
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_training_produces_mod0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_training_produces_mod0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_training_produces_mod0/data/encoders_mappings.json
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_training_produces_mod0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_training_produces_mod0/data/splits.csv
+2025-11-05 15:18:40 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:18:40 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_training_produces_mod0/data/splits.parquet
+2025-11-05 15:18:40 | INFO | src.training.main | Loaded 200 rows
+2025-11-05 15:18:40 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:18:40 | INFO | src.training.training | Filtered splits: resulting dataframe has 160 rows
+2025-11-05 15:18:40 | INFO | src.training.main | Train rows: 160
+2025-11-05 15:18:40 | INFO | src.training.main | Separating features and target
+2025-11-05 15:18:40 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:18:40 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_training_produces_mod0/results/optimization/best_params.json
+2025-11-05 15:18:40 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:18:40 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:18:40 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:18:40 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:18:40 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:18:40 | INFO | src.training.main | Saving trained model
+2025-11-05 15:18:40 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_training_produces_mod0/model_saved/catboost_model.cbm
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:18:40 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:18:40 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/data/dataset_cleaned.parquet
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:18:40 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/data/encoders_mappings.json
+2025-11-05 15:18:40 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/data/splits.csv
+2025-11-05 15:18:40 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:18:40 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/data/splits.parquet
+2025-11-05 15:18:40 | INFO | src.training.main | Loaded 200 rows
+2025-11-05 15:18:40 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:18:40 | INFO | src.training.training | Filtered splits: resulting dataframe has 160 rows
+2025-11-05 15:18:40 | INFO | src.training.main | Train rows: 160
+2025-11-05 15:18:40 | INFO | src.training.main | Separating features and target
+2025-11-05 15:18:40 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:18:40 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/results/optimization/best_params.json
+2025-11-05 15:18:40 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:18:40 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:18:40 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:18:40 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:18:40 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:18:40 | INFO | src.training.main | Saving trained model
+2025-11-05 15:18:40 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/model_saved/catboost_model.cbm
+2025-11-05 15:18:40 | INFO | src.eval.eval | Loading model from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/model_saved/catboost_model.cbm
+2025-11-05 15:18:40 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/data/splits.parquet
+2025-11-05 15:18:40 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 0.9844779221998492, 'auc': 0.355, 'accuracy': 0.45, 'f1': 0.45, 'recall': 0.45}
+2025-11-05 15:18:41 | INFO | src.eval.eval | SHAP summary plot saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/results/plots/shap_summary.png
+2025-11-05 15:18:41 | INFO | src.eval.eval | Saving evaluation results to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_evaluation_writes_art0/results/eval_run
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_ridge_baseline_pipeli0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_ridge_baseline_pipeli0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_ridge_baseline_pipeli0/data/dataset_cleaned.parquet
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_ridge_baseline_pipeli0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_ridge_baseline_pipeli0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_ridge_baseline_pipeli0/data/encoders_mappings.json
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_ridge_baseline_pipeli0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_ridge_baseline_pipeli0/data/splits.csv
+2025-11-05 15:18:41 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:18:41 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:18:41 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_ridge_baseline_pipeli0/data/splits.parquet
+2025-11-05 15:18:41 | INFO | src.baseline.logistic_regression | Loaded 160 train rows and 40 test rows
+2025-11-05 15:18:41 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 100.0000 (CV logloss: 0.0121)
+2025-11-05 15:18:41 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=100.0000
+2025-11-05 15:18:41 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:18:41 | INFO | src.baseline.main | Best C: 100.0000
+2025-11-05 15:18:41 | INFO | src.baseline.main | Test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:18:41 | INFO | src.baseline.main | Results saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_ridge_baseline_pipeli0/results/run_20251105_151841/ridge_baseline_results.json
+2025-11-05 15:18:41 | INFO | src.main_global | === PIPELINE GLOBAL: CLEAN -> PREPARE -> BASELINE -> TRAIN -> EVAL ===
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:18:41 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:18:41 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/data/dataset_cleaned.parquet
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:18:41 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/data/encoders_mappings.json
+2025-11-05 15:18:41 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/data/splits.csv
+2025-11-05 15:18:41 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:18:41 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:18:41 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/data/splits.parquet
+2025-11-05 15:18:41 | INFO | src.baseline.logistic_regression | Loaded 160 train rows and 40 test rows
+2025-11-05 15:18:42 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 100.0000 (CV logloss: 0.0121)
+2025-11-05 15:18:42 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=100.0000
+2025-11-05 15:18:42 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:18:42 | INFO | src.baseline.main | Best C: 100.0000
+2025-11-05 15:18:42 | INFO | src.baseline.main | Test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:18:42 | INFO | src.baseline.main | Results saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/results/run_20251105_151842/ridge_baseline_results.json
+2025-11-05 15:18:42 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:18:42 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/data/splits.parquet
+2025-11-05 15:18:42 | INFO | src.training.main | Loaded 200 rows
+2025-11-05 15:18:42 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:18:42 | INFO | src.training.training | Filtered splits: resulting dataframe has 160 rows
+2025-11-05 15:18:42 | INFO | src.training.main | Train rows: 160
+2025-11-05 15:18:42 | INFO | src.training.main | Separating features and target
+2025-11-05 15:18:42 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:18:42 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/results/optimization/best_params.json
+2025-11-05 15:18:42 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:18:42 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:18:42 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:18:42 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:18:42 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:18:42 | INFO | src.training.main | Saving trained model
+2025-11-05 15:18:42 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/model_saved/catboost_model.cbm
+2025-11-05 15:18:42 | INFO | src.eval.eval | Loading model from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/model_saved/catboost_model.cbm
+2025-11-05 15:18:42 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/data/splits.parquet
+2025-11-05 15:18:42 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 0.9844779221998492, 'auc': 0.355, 'accuracy': 0.45, 'f1': 0.45, 'recall': 0.45}
+2025-11-05 15:18:42 | INFO | src.eval.main | Evaluation metrics: {'logloss': 0.9844779221998492, 'auc': 0.355, 'accuracy': 0.45, 'f1': 0.45, 'recall': 0.45}
+2025-11-05 15:18:42 | INFO | src.eval.main | Gender fairness AUC gap: 0.2349
+2025-11-05 15:18:42 | INFO | src.eval.main | Country fairness AUC gap: nan
+2025-11-05 15:18:42 | INFO | src.eval.eval | SHAP summary plot saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/results/plots/shap_summary.png
+2025-11-05 15:18:42 | INFO | src.eval.main | SHAP summary plot saved at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/results/plots/shap_summary.png
+2025-11-05 15:18:42 | INFO | src.eval.eval | Saving evaluation results to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-29/test_e2e_full_pipeline_orchest0/results/run_20251105_151842
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_clean_and_prepare_pre0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_clean_and_prepare_pre0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_clean_and_prepare_pre0/data/dataset_cleaned.parquet
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_clean_and_prepare_pre0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_clean_and_prepare_pre0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_clean_and_prepare_pre0/data/encoders_mappings.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_clean_and_prepare_pre0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_clean_and_prepare_pre0/data/splits.csv
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_training_produces_mod0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_training_produces_mod0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_training_produces_mod0/data/dataset_cleaned.parquet
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_training_produces_mod0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_training_produces_mod0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_training_produces_mod0/data/encoders_mappings.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_training_produces_mod0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_training_produces_mod0/data/splits.csv
+2025-11-05 15:19:53 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:19:53 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_training_produces_mod0/data/splits.parquet
+2025-11-05 15:19:53 | INFO | src.training.main | Loaded 200 rows
+2025-11-05 15:19:53 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:19:53 | INFO | src.training.training | Filtered splits: resulting dataframe has 160 rows
+2025-11-05 15:19:53 | INFO | src.training.main | Train rows: 160
+2025-11-05 15:19:53 | INFO | src.training.main | Separating features and target
+2025-11-05 15:19:53 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:19:53 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_training_produces_mod0/results/optimization/best_params.json
+2025-11-05 15:19:53 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:19:53 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:19:53 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:19:53 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:19:53 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:19:53 | INFO | src.training.main | Saving trained model
+2025-11-05 15:19:53 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_training_produces_mod0/model_saved/catboost_model.cbm
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/data/dataset_cleaned.parquet
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/data/encoders_mappings.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/data/splits.csv
+2025-11-05 15:19:53 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:19:53 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/data/splits.parquet
+2025-11-05 15:19:53 | INFO | src.training.main | Loaded 200 rows
+2025-11-05 15:19:53 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:19:53 | INFO | src.training.training | Filtered splits: resulting dataframe has 160 rows
+2025-11-05 15:19:53 | INFO | src.training.main | Train rows: 160
+2025-11-05 15:19:53 | INFO | src.training.main | Separating features and target
+2025-11-05 15:19:53 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:19:53 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/results/optimization/best_params.json
+2025-11-05 15:19:53 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:19:53 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:19:53 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:19:53 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:19:53 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:19:53 | INFO | src.training.main | Saving trained model
+2025-11-05 15:19:53 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/model_saved/catboost_model.cbm
+2025-11-05 15:19:53 | INFO | src.eval.eval | Loading model from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/model_saved/catboost_model.cbm
+2025-11-05 15:19:53 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/data/splits.parquet
+2025-11-05 15:19:53 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 0.9844779221998492, 'auc': 0.355, 'accuracy': 0.45, 'f1': 0.45, 'recall': 0.45}
+2025-11-05 15:19:53 | INFO | src.eval.eval | SHAP summary plot saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/results/plots/shap_summary.png
+2025-11-05 15:19:53 | INFO | src.eval.eval | Saving evaluation results to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_evaluation_writes_art0/results/eval_run
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_ridge_baseline_pipeli0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_ridge_baseline_pipeli0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_ridge_baseline_pipeli0/data/dataset_cleaned.parquet
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_ridge_baseline_pipeli0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_ridge_baseline_pipeli0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_ridge_baseline_pipeli0/data/encoders_mappings.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_ridge_baseline_pipeli0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_ridge_baseline_pipeli0/data/splits.csv
+2025-11-05 15:19:53 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:19:53 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:19:53 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_ridge_baseline_pipeli0/data/splits.parquet
+2025-11-05 15:19:53 | INFO | src.baseline.logistic_regression | Loaded 160 train rows and 40 test rows
+2025-11-05 15:19:53 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 100.0000 (CV logloss: 0.0121)
+2025-11-05 15:19:53 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=100.0000
+2025-11-05 15:19:53 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:19:53 | INFO | src.baseline.main | Best C: 100.0000
+2025-11-05 15:19:53 | INFO | src.baseline.main | Test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:19:53 | INFO | src.baseline.main | Results saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_ridge_baseline_pipeli0/results/run_20251105_151953/ridge_baseline_results.json
+2025-11-05 15:19:53 | INFO | src.main_global | === PIPELINE GLOBAL: CLEAN -> PREPARE -> BASELINE -> TRAIN -> EVAL ===
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:19:53 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:19:53 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/data/dataset_cleaned.parquet
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:19:53 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/data/encoders_mappings.json
+2025-11-05 15:19:53 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/data/splits.csv
+2025-11-05 15:19:53 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:19:53 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:19:53 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/data/splits.parquet
+2025-11-05 15:19:53 | INFO | src.baseline.logistic_regression | Loaded 160 train rows and 40 test rows
+2025-11-05 15:19:54 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 100.0000 (CV logloss: 0.0121)
+2025-11-05 15:19:54 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=100.0000
+2025-11-05 15:19:54 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:19:54 | INFO | src.baseline.main | Best C: 100.0000
+2025-11-05 15:19:54 | INFO | src.baseline.main | Test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:19:54 | INFO | src.baseline.main | Results saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/results/run_20251105_151954/ridge_baseline_results.json
+2025-11-05 15:19:54 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:19:54 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/data/splits.parquet
+2025-11-05 15:19:54 | INFO | src.training.main | Loaded 200 rows
+2025-11-05 15:19:54 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:19:54 | INFO | src.training.training | Filtered splits: resulting dataframe has 160 rows
+2025-11-05 15:19:54 | INFO | src.training.main | Train rows: 160
+2025-11-05 15:19:54 | INFO | src.training.main | Separating features and target
+2025-11-05 15:19:54 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:19:54 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/results/optimization/best_params.json
+2025-11-05 15:19:54 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:19:54 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:19:54 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:19:54 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:19:54 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:19:54 | INFO | src.training.main | Saving trained model
+2025-11-05 15:19:54 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/model_saved/catboost_model.cbm
+2025-11-05 15:19:54 | INFO | src.eval.eval | Loading model from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/model_saved/catboost_model.cbm
+2025-11-05 15:19:54 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/data/splits.parquet
+2025-11-05 15:19:54 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 0.9844779221998492, 'auc': 0.355, 'accuracy': 0.45, 'f1': 0.45, 'recall': 0.45}
+2025-11-05 15:19:54 | INFO | src.eval.main | Evaluation metrics: {'logloss': 0.9844779221998492, 'auc': 0.355, 'accuracy': 0.45, 'f1': 0.45, 'recall': 0.45}
+2025-11-05 15:19:54 | INFO | src.eval.main | Gender fairness AUC gap: 0.2349
+2025-11-05 15:19:54 | INFO | src.eval.main | Country fairness AUC gap: nan
+2025-11-05 15:19:54 | INFO | src.eval.eval | SHAP summary plot saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/results/plots/shap_summary.png
+2025-11-05 15:19:54 | INFO | src.eval.main | SHAP summary plot saved at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/results/plots/shap_summary.png
+2025-11-05 15:19:54 | INFO | src.eval.eval | Saving evaluation results to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-30/test_e2e_full_pipeline_orchest0/results/run_20251105_151954
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_load_splits0/data/splits.parquet
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Loaded 100 train rows and 30 test rows
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 0.0162 (CV logloss: 0.6833)
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=1.0000
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=1.0000
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_ridge_baseline_returns_co0/data/splits.parquet
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Loaded 100 train rows and 30 test rows
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 0.0100 (CV logloss: 0.7022)
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=0.0100
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.6946101218961096, 'auc': 0.44907407407407407, 'accuracy': 0.4666666666666667, 'f1': 0.2, 'recall': 0.16666666666666666}
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_ridge_baseline_metrics_ke0/data/splits.parquet
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Loaded 100 train rows and 30 test rows
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 0.0100 (CV logloss: 0.7022)
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=0.0100
+2025-11-05 15:20:00 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.6946101218961096, 'auc': 0.44907407407407407, 'accuracy': 0.4666666666666667, 'f1': 0.2, 'recall': 0.16666666666666666}
+2025-11-05 15:20:01 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:20:01 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (3, 6)
+2025-11-05 15:20:01 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 3
+2025-11-05 15:20:01 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (1, 1)
+2025-11-05 15:20:01 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:20:01 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_load_cleaned_dataset_read0/data/dataset_cleaned.parquet
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Split completed: train=8 rows, test=3 rows
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_split_pipeline_preserves_0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_split_pipeline_preserves_0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Split completed: train=8 rows, test=3 rows
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_split_pipeline_logs_metri0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_split_pipeline_logs_metri0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Split completed: train=48 rows, test=12 rows
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_split_train_test_is_strat0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_split_train_test_is_strat0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_save_splits_combines_data0/data/encoders_mappings.json
+2025-11-05 15:20:01 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_save_splits_combines_data0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_save_splits_combines_data0/data/splits.csv
+2025-11-05 15:20:01 | INFO | src.eval.eval | Loading model from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_load_model_uses_configure0/model_saved/catboost_model.cbm
+2025-11-05 15:20:01 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_load_split_dataframe_cach0/data/splits.parquet
+2025-11-05 15:20:01 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_evaluate_model_computes_m0/data/splits.parquet
+2025-11-05 15:20:01 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 1.15706358449423, 'auc': 0.33333333333333337, 'accuracy': 0.3333333333333333, 'f1': 0.3333333333333333, 'recall': 0.3333333333333333}
+2025-11-05 15:20:01 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_evaluate_fairness_by_grou0/data/splits.parquet
+2025-11-05 15:20:01 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_save_shap_summary_plot_cr0/data/splits.parquet
+2025-11-05 15:20:01 | INFO | src.eval.eval | SHAP summary plot saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_save_shap_summary_plot_cr0/results/shap_test.png
+2025-11-05 15:20:01 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_build_shap_vs_cramers_tab0/data/splits.parquet
+2025-11-05 15:20:01 | INFO | src.eval.eval | Loading split 'train' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_build_shap_vs_cramers_tab0/data/splits.parquet
+2025-11-05 15:20:01 | INFO | src.eval.eval | Saving evaluation results to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_save_eval_results_writes_0/results/run_20251105_152001
+2025-11-05 15:20:01 | INFO | src.optimization.optimize | Loading HPO training data from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_optimize_hyperparameters_0/data/splits.parquet
+2025-11-05 15:20:01 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:20:01 | INFO | src.optimization.optimize | Starting Optuna study (trials=2, metric=logloss, folds=2)
+2025-11-05 15:20:01 | INFO | src.optimization.optimize | Best params: {'depth': 5, 'learning_rate': 0.22648248189516848, 'l2_leaf_reg': 4.5705630998014515, 'bagging_temperature': 0.5986584841970366, 'iterations': 286} | best_value=1.0144 | best_iterations=None
+2025-11-05 15:20:01 | INFO | src.optimization.optimize | Saved best params to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_save_optimization_artifac0/results/optimization/best_params.json and CV history to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_save_optimization_artifac0/results/optimization/cv_history.json
+2025-11-05 15:20:01 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_load_splits_reads_parquet0/data/splits.parquet
+2025-11-05 15:20:01 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:20:01 | INFO | src.training.training | Filtered splits: resulting dataframe has 15 rows
+2025-11-05 15:20:01 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:20:01 | INFO | src.training.training | Prepared training data: 2 categorical features detected
+2025-11-05 15:20:01 | INFO | src.training.training | Training with internal validation (early stopping, val_size=0.10)
+2025-11-05 15:20:01 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-31/test_save_model_writes_file0/model_saved/catboost_model.cbm
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_prepare_writes_splits_and0/data/dataset_cleaned.parquet
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_prepare_writes_splits_and0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_prepare_writes_splits_and0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_prepare_writes_splits_and0/data/encoders_mappings.json
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_prepare_writes_splits_and0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_prepare_writes_splits_and0/data/splits.csv
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_training_writes_model0/data/dataset_cleaned.parquet
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_training_writes_model0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_training_writes_model0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_training_writes_model0/data/encoders_mappings.json
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_training_writes_model0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_training_writes_model0/data/splits.csv
+2025-11-05 15:35:37 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:35:37 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_training_writes_model0/data/splits.parquet
+2025-11-05 15:35:37 | INFO | src.training.main | Loaded 120 rows
+2025-11-05 15:35:37 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:35:37 | INFO | src.training.training | Filtered splits: resulting dataframe has 96 rows
+2025-11-05 15:35:37 | INFO | src.training.main | Train rows: 96
+2025-11-05 15:35:37 | INFO | src.training.main | Separating features and target
+2025-11-05 15:35:37 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:35:37 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_training_writes_model0/results/optimization/best_params.json
+2025-11-05 15:35:37 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:35:37 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:35:37 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:35:37 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:35:37 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:35:37 | INFO | src.training.main | Saving trained model
+2025-11-05 15:35:37 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_training_writes_model0/model_saved/catboost_model.cbm
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/data/dataset_cleaned.parquet
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/data/encoders_mappings.json
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/data/splits.csv
+2025-11-05 15:35:37 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:35:37 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/data/splits.parquet
+2025-11-05 15:35:37 | INFO | src.training.main | Loaded 120 rows
+2025-11-05 15:35:37 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:35:37 | INFO | src.training.training | Filtered splits: resulting dataframe has 96 rows
+2025-11-05 15:35:37 | INFO | src.training.main | Train rows: 96
+2025-11-05 15:35:37 | INFO | src.training.main | Separating features and target
+2025-11-05 15:35:37 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:35:37 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/results/optimization/best_params.json
+2025-11-05 15:35:37 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:35:37 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:35:37 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:35:37 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:35:37 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:35:37 | INFO | src.training.main | Saving trained model
+2025-11-05 15:35:37 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/model_saved/catboost_model.cbm
+2025-11-05 15:35:37 | INFO | src.eval.eval | Loading model from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/model_saved/catboost_model.cbm
+2025-11-05 15:35:37 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/data/splits.parquet
+2025-11-05 15:35:37 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 0.9453681232457121, 'auc': 0.4097222222222222, 'accuracy': 0.4166666666666667, 'f1': 0.4166666666666667, 'recall': 0.4166666666666667}
+2025-11-05 15:35:37 | INFO | src.eval.eval | SHAP summary plot saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/results/plots/shap_summary.png
+2025-11-05 15:35:37 | INFO | src.eval.eval | Saving evaluation results to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_evaluation_writes_artifac0/results/eval_run
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_ridge_baseline_pipeline_w0/data/dataset_cleaned.parquet
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Dataset shape: 120 rows, 5 columns
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Split completed: train=96 rows, test=24 rows
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_ridge_baseline_pipeline_w0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_ridge_baseline_pipeline_w0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Train rows: 96
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Test rows: 24
+2025-11-05 15:35:37 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_ridge_baseline_pipeline_w0/data/encoders_mappings.json
+2025-11-05 15:35:37 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_ridge_baseline_pipeline_w0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_ridge_baseline_pipeline_w0/data/splits.csv
+2025-11-05 15:35:37 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:35:37 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:35:37 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_ridge_baseline_pipeline_w0/data/splits.parquet
+2025-11-05 15:35:37 | INFO | src.baseline.logistic_regression | Loaded 96 train rows and 24 test rows
+2025-11-05 15:35:37 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 100.0000 (CV logloss: 0.0004)
+2025-11-05 15:35:37 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=100.0000
+2025-11-05 15:35:37 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.0003278923730847943, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:35:37 | INFO | src.baseline.main | Best C: 100.0000
+2025-11-05 15:35:37 | INFO | src.baseline.main | Test metrics: {'logloss': 0.0003278923730847943, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:35:37 | INFO | src.baseline.main | Results saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-33/test_ridge_baseline_pipeline_w0/results/run_20251105_153537/ridge_baseline_results.json
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_clean_and_prepare_pre0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_clean_and_prepare_pre0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_clean_and_prepare_pre0/data/dataset_cleaned.parquet
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_clean_and_prepare_pre0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_clean_and_prepare_pre0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_clean_and_prepare_pre0/data/encoders_mappings.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_clean_and_prepare_pre0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_clean_and_prepare_pre0/data/splits.csv
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_training_produces_mod0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_training_produces_mod0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_training_produces_mod0/data/dataset_cleaned.parquet
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_training_produces_mod0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_training_produces_mod0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_training_produces_mod0/data/encoders_mappings.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_training_produces_mod0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_training_produces_mod0/data/splits.csv
+2025-11-05 15:35:45 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:35:45 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_training_produces_mod0/data/splits.parquet
+2025-11-05 15:35:45 | INFO | src.training.main | Loaded 200 rows
+2025-11-05 15:35:45 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:35:45 | INFO | src.training.training | Filtered splits: resulting dataframe has 160 rows
+2025-11-05 15:35:45 | INFO | src.training.main | Train rows: 160
+2025-11-05 15:35:45 | INFO | src.training.main | Separating features and target
+2025-11-05 15:35:45 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:35:45 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_training_produces_mod0/results/optimization/best_params.json
+2025-11-05 15:35:45 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:35:45 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:35:45 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:35:45 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:35:45 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:35:45 | INFO | src.training.main | Saving trained model
+2025-11-05 15:35:45 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_training_produces_mod0/model_saved/catboost_model.cbm
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/data/dataset_cleaned.parquet
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/data/encoders_mappings.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/data/splits.csv
+2025-11-05 15:35:45 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:35:45 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/data/splits.parquet
+2025-11-05 15:35:45 | INFO | src.training.main | Loaded 200 rows
+2025-11-05 15:35:45 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:35:45 | INFO | src.training.training | Filtered splits: resulting dataframe has 160 rows
+2025-11-05 15:35:45 | INFO | src.training.main | Train rows: 160
+2025-11-05 15:35:45 | INFO | src.training.main | Separating features and target
+2025-11-05 15:35:45 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:35:45 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/results/optimization/best_params.json
+2025-11-05 15:35:45 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:35:45 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:35:45 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:35:45 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:35:45 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:35:45 | INFO | src.training.main | Saving trained model
+2025-11-05 15:35:45 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/model_saved/catboost_model.cbm
+2025-11-05 15:35:45 | INFO | src.eval.eval | Loading model from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/model_saved/catboost_model.cbm
+2025-11-05 15:35:45 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/data/splits.parquet
+2025-11-05 15:35:45 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 0.9844779221998492, 'auc': 0.355, 'accuracy': 0.45, 'f1': 0.45, 'recall': 0.45}
+2025-11-05 15:35:45 | INFO | src.eval.eval | SHAP summary plot saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/results/plots/shap_summary.png
+2025-11-05 15:35:45 | INFO | src.eval.eval | Saving evaluation results to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_evaluation_writes_art0/results/eval_run
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:35:45 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:35:45 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_ridge_baseline_pipeli0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_ridge_baseline_pipeli0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_ridge_baseline_pipeli0/data/dataset_cleaned.parquet
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_ridge_baseline_pipeli0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_ridge_baseline_pipeli0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:35:45 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_ridge_baseline_pipeli0/data/encoders_mappings.json
+2025-11-05 15:35:45 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_ridge_baseline_pipeli0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_ridge_baseline_pipeli0/data/splits.csv
+2025-11-05 15:35:45 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:35:45 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:35:45 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_ridge_baseline_pipeli0/data/splits.parquet
+2025-11-05 15:35:45 | INFO | src.baseline.logistic_regression | Loaded 160 train rows and 40 test rows
+2025-11-05 15:35:46 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 100.0000 (CV logloss: 0.0121)
+2025-11-05 15:35:46 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=100.0000
+2025-11-05 15:35:46 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:35:46 | INFO | src.baseline.main | Best C: 100.0000
+2025-11-05 15:35:46 | INFO | src.baseline.main | Test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:35:46 | INFO | src.baseline.main | Results saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_ridge_baseline_pipeli0/results/run_20251105_153546/ridge_baseline_results.json
+2025-11-05 15:35:46 | INFO | src.main_global | === PIPELINE GLOBAL: CLEAN -> PREPARE -> BASELINE -> TRAIN -> EVAL ===
+2025-11-05 15:35:46 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:35:46 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:35:46 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (200, 6)
+2025-11-05 15:35:46 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:35:46 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:35:46 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:35:46 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:35:46 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (200, 5)
+2025-11-05 15:35:46 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:35:46 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:35:46 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:35:46 | INFO | src.data_cleaning.main | Cleaning metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/results/data_cleaning/clean_data_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:35:46 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:35:46 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/data/dataset_cleaned.parquet
+2025-11-05 15:35:46 | INFO | src.data_preparation.main | Dataset shape: 200 rows, 5 columns
+2025-11-05 15:35:46 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:35:46 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:46 | INFO | src.data_preparation.data_preparation | Split completed: train=160 rows, test=40 rows
+2025-11-05 15:35:46 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:46 | INFO | src.data_preparation.main | Train rows: 160
+2025-11-05 15:35:46 | INFO | src.data_preparation.main | Test rows: 40
+2025-11-05 15:35:46 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:35:46 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:35:46 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/data/encoders_mappings.json
+2025-11-05 15:35:46 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/data/splits.csv
+2025-11-05 15:35:46 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:35:46 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:35:46 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/data/splits.parquet
+2025-11-05 15:35:46 | INFO | src.baseline.logistic_regression | Loaded 160 train rows and 40 test rows
+2025-11-05 15:35:46 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 100.0000 (CV logloss: 0.0121)
+2025-11-05 15:35:46 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=100.0000
+2025-11-05 15:35:46 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:35:46 | INFO | src.baseline.main | Best C: 100.0000
+2025-11-05 15:35:46 | INFO | src.baseline.main | Test metrics: {'logloss': 0.011032364369106895, 'auc': 1.0, 'accuracy': 1.0, 'f1': 1.0, 'recall': 1.0}
+2025-11-05 15:35:46 | INFO | src.baseline.main | Results saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/results/run_20251105_153546/ridge_baseline_results.json
+2025-11-05 15:35:46 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:35:46 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/data/splits.parquet
+2025-11-05 15:35:46 | INFO | src.training.main | Loaded 200 rows
+2025-11-05 15:35:46 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:35:46 | INFO | src.training.training | Filtered splits: resulting dataframe has 160 rows
+2025-11-05 15:35:46 | INFO | src.training.main | Train rows: 160
+2025-11-05 15:35:46 | INFO | src.training.main | Separating features and target
+2025-11-05 15:35:46 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:35:46 | INFO | src.training.main | Loading saved HPO best params from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/results/optimization/best_params.json
+2025-11-05 15:35:46 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:35:46 | INFO | src.training.training | Prepared training data: 4 categorical features detected
+2025-11-05 15:35:46 | INFO | src.training.training | Training final model on full train (iterations=50, no eval_set)
+2025-11-05 15:35:46 | INFO | src.training.training | Training finished after 10 iterations
+2025-11-05 15:35:46 | INFO | src.training.main | Model trained with 10 trees
+2025-11-05 15:35:46 | INFO | src.training.main | Saving trained model
+2025-11-05 15:35:46 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/model_saved/catboost_model.cbm
+2025-11-05 15:35:46 | INFO | src.eval.eval | Loading model from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/model_saved/catboost_model.cbm
+2025-11-05 15:35:46 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/data/splits.parquet
+2025-11-05 15:35:46 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 0.9844779221998492, 'auc': 0.355, 'accuracy': 0.45, 'f1': 0.45, 'recall': 0.45}
+2025-11-05 15:35:46 | INFO | src.eval.main | Evaluation metrics: {'logloss': 0.9844779221998492, 'auc': 0.355, 'accuracy': 0.45, 'f1': 0.45, 'recall': 0.45}
+2025-11-05 15:35:46 | INFO | src.eval.main | Gender fairness AUC gap: 0.2349
+2025-11-05 15:35:46 | INFO | src.eval.main | Country fairness AUC gap: nan
+2025-11-05 15:35:46 | INFO | src.eval.eval | SHAP summary plot saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/results/plots/shap_summary.png
+2025-11-05 15:35:46 | INFO | src.eval.main | SHAP summary plot saved at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/results/plots/shap_summary.png
+2025-11-05 15:35:46 | INFO | src.eval.eval | Saving evaluation results to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-34/test_e2e_full_pipeline_orchest0/results/run_20251105_153546
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_load_splits0/data/splits.parquet
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Loaded 100 train rows and 30 test rows
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 0.0162 (CV logloss: 0.6833)
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=1.0000
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=1.0000
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_ridge_baseline_returns_co0/data/splits.parquet
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Loaded 100 train rows and 30 test rows
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 0.0100 (CV logloss: 0.7022)
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=0.0100
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.6946101218961096, 'auc': 0.44907407407407407, 'accuracy': 0.4666666666666667, 'f1': 0.2, 'recall': 0.16666666666666666}
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Loading splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_ridge_baseline_metrics_ke0/data/splits.parquet
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Loaded 100 train rows and 30 test rows
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 0.0100 (CV logloss: 0.7022)
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=0.0100
+2025-11-05 15:35:53 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.6946101218961096, 'auc': 0.44907407407407407, 'accuracy': 0.4666666666666667, 'f1': 0.2, 'recall': 0.16666666666666666}
+2025-11-05 15:35:53 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:35:53 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (3, 6)
+2025-11-05 15:35:53 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 3
+2025-11-05 15:35:53 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (1, 1)
+2025-11-05 15:35:53 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:35:53 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_load_cleaned_dataset_read0/data/dataset_cleaned.parquet
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Split completed: train=8 rows, test=3 rows
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_split_pipeline_preserves_0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_split_pipeline_preserves_0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Split completed: train=8 rows, test=3 rows
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_split_pipeline_logs_metri0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_split_pipeline_logs_metri0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Split completed: train=48 rows, test=12 rows
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_split_train_test_is_strat0/results/data_preparation/data_preparation_metrics.csv and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_split_train_test_is_strat0/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_save_splits_combines_data0/data/encoders_mappings.json
+2025-11-05 15:35:53 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_save_splits_combines_data0/data/splits.parquet and /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_save_splits_combines_data0/data/splits.csv
+2025-11-05 15:35:53 | INFO | src.eval.eval | Loading model from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_load_model_uses_configure0/model_saved/catboost_model.cbm
+2025-11-05 15:35:53 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_load_split_dataframe_cach0/data/splits.parquet
+2025-11-05 15:35:53 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_evaluate_model_computes_m0/data/splits.parquet
+2025-11-05 15:35:53 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 1.15706358449423, 'auc': 0.33333333333333337, 'accuracy': 0.3333333333333333, 'f1': 0.3333333333333333, 'recall': 0.3333333333333333}
+2025-11-05 15:35:53 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_evaluate_fairness_by_grou0/data/splits.parquet
+2025-11-05 15:35:53 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_save_shap_summary_plot_cr0/data/splits.parquet
+2025-11-05 15:35:54 | INFO | src.eval.eval | SHAP summary plot saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_save_shap_summary_plot_cr0/results/shap_test.png
+2025-11-05 15:35:54 | INFO | src.eval.eval | Loading split 'test' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_build_shap_vs_cramers_tab0/data/splits.parquet
+2025-11-05 15:35:54 | INFO | src.eval.eval | Loading split 'train' from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_build_shap_vs_cramers_tab0/data/splits.parquet
+2025-11-05 15:35:54 | INFO | src.eval.eval | Saving evaluation results to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_save_eval_results_writes_0/results/run_20251105_153554
+2025-11-05 15:35:54 | INFO | src.optimization.optimize | Loading HPO training data from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_optimize_hyperparameters_0/data/splits.parquet
+2025-11-05 15:35:54 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:35:54 | INFO | src.optimization.optimize | Starting Optuna study (trials=2, metric=logloss, folds=2)
+2025-11-05 15:35:54 | INFO | src.optimization.optimize | Best params: {'depth': 5, 'learning_rate': 0.22648248189516848, 'l2_leaf_reg': 4.5705630998014515, 'bagging_temperature': 0.5986584841970366, 'iterations': 286} | best_value=1.0144 | best_iterations=None
+2025-11-05 15:35:54 | INFO | src.optimization.optimize | Saved best params to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_save_optimization_artifac0/results/optimization/best_params.json and CV history to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_save_optimization_artifac0/results/optimization/cv_history.json
+2025-11-05 15:35:54 | INFO | src.training.training | Loading dataset splits from /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_load_splits_reads_parquet0/data/splits.parquet
+2025-11-05 15:35:54 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:35:54 | INFO | src.training.training | Filtered splits: resulting dataframe has 15 rows
+2025-11-05 15:35:54 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:35:54 | INFO | src.training.training | Prepared training data: 2 categorical features detected
+2025-11-05 15:35:54 | INFO | src.training.training | Training with internal validation (early stopping, val_size=0.10)
+2025-11-05 15:35:54 | INFO | src.training.training | Model saved to /private/var/folders/65/hx23vh515nnfb35ysjpxbn540000gn/T/pytest-of-steven/pytest-35/test_save_model_writes_file0/model_saved/catboost_model.cbm
+2025-11-05 15:36:59 | INFO | __main__ | === PIPELINE GLOBAL: CLEAN -> PREPARE -> BASELINE -> TRAIN -> EVAL ===
+2025-11-05 15:36:59 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:37:00 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:37:00 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (261328, 17)
+2025-11-05 15:37:00 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:37:00 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:37:00 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:37:01 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:37:01 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (261328, 16)
+2025-11-05 15:37:03 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:37:03 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:37:04 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:37:04 | INFO | src.data_cleaning.main | Cleaning metrics stored at /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/data_cleaning/clean_data_metrics.csv and /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:37:04 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:37:04 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/dataset_cleaned.parquet
+2025-11-05 15:37:04 | INFO | src.data_preparation.main | Dataset shape: 261328 rows, 16 columns
+2025-11-05 15:37:04 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:37:04 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:37:05 | INFO | src.data_preparation.data_preparation | Split completed: train=209062 rows, test=52266 rows
+2025-11-05 15:37:05 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/data_preparation/data_preparation_metrics.csv and /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:37:05 | INFO | src.data_preparation.main | Train rows: 209062
+2025-11-05 15:37:05 | INFO | src.data_preparation.main | Test rows: 52266
+2025-11-05 15:37:05 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:37:05 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:37:05 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/encoders_mappings.json
+2025-11-05 15:37:06 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/splits.parquet and /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/splits.csv
+2025-11-05 15:37:07 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 15:37:07 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 15:37:07 | INFO | src.baseline.logistic_regression | Loading splits from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/splits.parquet
+2025-11-05 15:37:07 | INFO | src.baseline.logistic_regression | Loaded 209062 train rows and 52266 test rows
+2025-11-05 15:38:00 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 0.0162 (CV logloss: 0.5790)
+2025-11-05 15:38:00 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=0.0162
+2025-11-05 15:38:00 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.5777055380540069, 'auc': 0.7675266050210512, 'accuracy': 0.6970879730608809, 'f1': 0.692964083469087, 'recall': 0.6958790994780713}
+2025-11-05 15:38:00 | INFO | src.baseline.main | Best C: 0.0162
+2025-11-05 15:38:00 | INFO | src.baseline.main | Test metrics: {'logloss': 0.5777055380540069, 'auc': 0.7675266050210512, 'accuracy': 0.6970879730608809, 'f1': 0.692964083469087, 'recall': 0.6958790994780713}
+2025-11-05 15:38:00 | INFO | src.baseline.main | Results saved to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/run_20251105_153800/ridge_baseline_results.json
+2025-11-05 15:38:00 | INFO | src.training.main | Loading dataset splits
+2025-11-05 15:38:00 | INFO | src.training.training | Loading dataset splits from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/splits.parquet
+2025-11-05 15:38:00 | INFO | src.training.main | Loaded 261328 rows
+2025-11-05 15:38:00 | INFO | src.training.main | Filtering train rows
+2025-11-05 15:38:01 | INFO | src.training.training | Filtered splits: resulting dataframe has 209062 rows
+2025-11-05 15:38:01 | INFO | src.training.main | Train rows: 209062
+2025-11-05 15:38:01 | INFO | src.training.main | Separating features and target
+2025-11-05 15:38:01 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:38:01 | INFO | src.training.main | No saved HPO params found at /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/optimization/best_params.json; continuing without HPO (training with defaults).
+2025-11-05 15:38:01 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 15:38:01 | INFO | src.training.training | Prepared training data: 15 categorical features detected
+2025-11-05 15:38:01 | INFO | src.training.training | Training with internal validation (early stopping, val_size=0.10)
+2025-11-05 15:38:25 | INFO | src.training.training | Training finished after 403 iterations
+2025-11-05 15:38:25 | INFO | src.training.main | Model trained with 403 trees
+2025-11-05 15:38:25 | INFO | src.training.main | Saving trained model
+2025-11-05 15:38:25 | INFO | src.training.training | Model saved to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/model_saved/catboost_model.cbm
+2025-11-05 15:38:25 | INFO | src.eval.eval | Loading model from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/model_saved/catboost_model.cbm
+2025-11-05 15:38:25 | INFO | src.eval.eval | Loading split 'test' from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/splits.parquet
+2025-11-05 15:38:25 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 0.47846159333287835, 'auc': 0.8380746800611705, 'accuracy': 0.7515593311139173, 'f1': 0.7608611576640454, 'recall': 0.8045882994469112}
+2025-11-05 15:38:25 | INFO | src.eval.main | Evaluation metrics: {'logloss': 0.47846159333287835, 'auc': 0.8380746800611705, 'accuracy': 0.7515593311139173, 'f1': 0.7608611576640454, 'recall': 0.8045882994469112}
+2025-11-05 15:38:26 | INFO | src.eval.main | Gender fairness AUC gap: 0.0554
+2025-11-05 15:38:26 | INFO | src.eval.main | Country fairness AUC gap: 0.1013
+2025-11-05 15:38:26 | INFO | src.eval.eval | SHAP summary plot saved to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/plots/shap_summary.png
+2025-11-05 15:38:26 | INFO | src.eval.main | SHAP summary plot saved at /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/plots/shap_summary.png
+2025-11-05 15:38:27 | INFO | src.eval.eval | Saving evaluation results to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/run_20251105_153827
+2025-11-05 15:44:20 | INFO | __main__ | === PIPELINE GLOBAL: CLEAN -> PREPARE -> OPTIMIZE -> BASELINE -> TRAIN -> EVAL ===
+2025-11-05 15:44:20 | INFO | src.data_cleaning.main | Loading raw dataset
+2025-11-05 15:44:20 | INFO | src.data_cleaning.main | Removing duplicate columns
+2025-11-05 15:44:20 | INFO | src.data_cleaning.data_cleaning | Removing duplicate columns on dataframe with shape (261328, 17)
+2025-11-05 15:44:20 | INFO | src.data_cleaning.data_cleaning | Duplicate columns removed: 1
+2025-11-05 15:44:20 | INFO | src.data_cleaning.main | Normalising missing tokens
+2025-11-05 15:44:20 | INFO | src.data_cleaning.data_cleaning | Standardising missing tokens: using 7 replacement tokens
+2025-11-05 15:44:21 | INFO | src.data_cleaning.main | Normalising textual columns
+2025-11-05 15:44:21 | INFO | src.data_cleaning.data_cleaning | Normalising textual columns for dataframe with shape (261328, 16)
+2025-11-05 15:44:23 | INFO | src.data_cleaning.main | Saving cleaned dataset
+2025-11-05 15:44:23 | INFO | src.data_cleaning.data_cleaning | Saving cleaned dataset to dataset_cleaned.csv and dataset_cleaned.parquet
+2025-11-05 15:44:24 | INFO | src.data_cleaning.data_cleaning | Cleaned dataset saved successfully
+2025-11-05 15:44:24 | INFO | src.data_cleaning.main | Cleaning metrics stored at /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/data_cleaning/clean_data_metrics.csv and /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/data_cleaning/clean_data_metrics.json
+2025-11-05 15:44:24 | INFO | src.data_preparation.main | Loading cleaned dataset
+2025-11-05 15:44:24 | INFO | src.data_preparation.data_preparation | Loading cleaned dataset from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/dataset_cleaned.parquet
+2025-11-05 15:44:25 | INFO | src.data_preparation.main | Dataset shape: 261328 rows, 16 columns
+2025-11-05 15:44:25 | INFO | src.data_preparation.main | Splitting dataset into train/test
+2025-11-05 15:44:25 | INFO | src.data_preparation.data_preparation | Shuffling dataset with random_state=42
+2025-11-05 15:44:25 | INFO | src.data_preparation.data_preparation | Split completed: train=209062 rows, test=52266 rows
+2025-11-05 15:44:25 | INFO | src.data_preparation.data_preparation | Data preparation metrics stored at /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/data_preparation/data_preparation_metrics.csv and /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/data_preparation/data_preparation_metrics.json
+2025-11-05 15:44:25 | INFO | src.data_preparation.main | Train rows: 209062
+2025-11-05 15:44:25 | INFO | src.data_preparation.main | Test rows: 52266
+2025-11-05 15:44:25 | INFO | src.data_preparation.main | Saving dataset splits
+2025-11-05 15:44:25 | INFO | src.data_preparation.data_preparation | Grouping categories rarer than 0.05 in column 'country'
+2025-11-05 15:44:25 | INFO | src.data_preparation.data_preparation | Saving encoders mappings to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/encoders_mappings.json
+2025-11-05 15:44:26 | INFO | src.data_preparation.data_preparation | Saving dataset splits to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/splits.parquet and /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/splits.csv
+2025-11-05 15:44:27 | INFO | __main__ | Running hyperparameter optimization...
+2025-11-05 15:44:27 | INFO | src.optimization.optimize | Loading HPO training data from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/splits.parquet
+2025-11-05 15:44:27 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 15:44:27 | INFO | src.optimization.optimize | Starting Optuna study (trials=50, metric=logloss, folds=5)
+2025-11-05 17:05:12 | INFO | src.optimization.optimize | Best params: {'depth': 10, 'learning_rate': 0.003921243855637543, 'l2_leaf_reg': 0.0053024228766843555, 'bagging_temperature': 0.489452760277563, 'iterations': 1935} | best_value=0.4761 | best_iterations=1650
+2025-11-05 17:05:12 | INFO | src.optimization.optimize | Saved best params to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/optimization/best_params.json and CV history to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/optimization/cv_history.json
+2025-11-05 17:05:12 | INFO | src.optimization.main | Optimization artifacts saved: {'best_params': '/Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/optimization/best_params.json', 'cv_history': '/Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/optimization/cv_history.json', 'dir': '/Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/optimization'}
+2025-11-05 17:05:12 | INFO | src.baseline.main | Starting Ridge baseline pipeline
+2025-11-05 17:05:12 | INFO | src.baseline.main | Using CV splits: 5, random_state: 42
+2025-11-05 17:05:12 | INFO | src.baseline.logistic_regression | Loading splits from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/splits.parquet
+2025-11-05 17:05:12 | INFO | src.baseline.logistic_regression | Loaded 209062 train rows and 52266 test rows
+2025-11-05 17:06:08 | INFO | src.baseline.logistic_regression | Best C (no-leak CV): 0.0162 (CV logloss: 0.5790)
+2025-11-05 17:06:08 | INFO | src.baseline.logistic_regression | Trained LogisticRegression with C=0.0162
+2025-11-05 17:06:08 | INFO | src.baseline.logistic_regression | Ridge baseline test metrics: {'logloss': 0.5777055380540069, 'auc': 0.7675266050210512, 'accuracy': 0.6970879730608809, 'f1': 0.692964083469087, 'recall': 0.6958790994780713}
+2025-11-05 17:06:08 | INFO | src.baseline.main | Best C: 0.0162
+2025-11-05 17:06:08 | INFO | src.baseline.main | Test metrics: {'logloss': 0.5777055380540069, 'auc': 0.7675266050210512, 'accuracy': 0.6970879730608809, 'f1': 0.692964083469087, 'recall': 0.6958790994780713}
+2025-11-05 17:06:08 | INFO | src.baseline.main | Results saved to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/run_20251105_170608/ridge_baseline_results.json
+2025-11-05 17:06:08 | INFO | src.training.main | Loading dataset splits
+2025-11-05 17:06:08 | INFO | src.training.training | Loading dataset splits from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/splits.parquet
+2025-11-05 17:06:08 | INFO | src.training.main | Loaded 261328 rows
+2025-11-05 17:06:08 | INFO | src.training.main | Filtering train rows
+2025-11-05 17:06:08 | INFO | src.training.training | Filtered splits: resulting dataframe has 209062 rows
+2025-11-05 17:06:08 | INFO | src.training.main | Train rows: 209062
+2025-11-05 17:06:08 | INFO | src.training.main | Separating features and target
+2025-11-05 17:06:08 | INFO | src.training.training | Separated features and target using column 'treatment'
+2025-11-05 17:06:08 | INFO | src.training.main | Loading saved HPO best params from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/optimization/best_params.json
+2025-11-05 17:06:08 | INFO | src.training.main | Training CatBoost model with best hyperparameters
+2025-11-05 17:06:08 | INFO | src.training.training | Prepared training data: 15 categorical features detected
+2025-11-05 17:06:08 | INFO | src.training.training | Training final model on full train (iterations=1935, no eval_set)
+2025-11-05 17:09:02 | INFO | src.training.training | Training finished after 1935 iterations
+2025-11-05 17:09:02 | INFO | src.training.main | Model trained with 1935 trees
+2025-11-05 17:09:02 | INFO | src.training.main | Saving trained model
+2025-11-05 17:09:02 | INFO | src.training.training | Model saved to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/model_saved/catboost_model.cbm
+2025-11-05 17:09:02 | INFO | src.eval.eval | Loading model from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/model_saved/catboost_model.cbm
+2025-11-05 17:09:02 | INFO | src.eval.eval | Loading split 'test' from /Users/steven/Documents/Programmation/MentalHealth_CatBoost/data/splits.parquet
+2025-11-05 17:09:02 | INFO | src.eval.eval | Evaluation metrics on test split: {'logloss': 0.4764444439046248, 'auc': 0.8382083535992388, 'accuracy': 0.751884590364673, 'f1': 0.7613192961790474, 'recall': 0.8055620472072914}
+2025-11-05 17:09:02 | INFO | src.eval.main | Evaluation metrics: {'logloss': 0.4764444439046248, 'auc': 0.8382083535992388, 'accuracy': 0.751884590364673, 'f1': 0.7613192961790474, 'recall': 0.8055620472072914}
+2025-11-05 17:09:02 | INFO | src.eval.main | Gender fairness AUC gap: 0.0543
+2025-11-05 17:09:02 | INFO | src.eval.main | Country fairness AUC gap: 0.0991
+2025-11-05 17:09:35 | INFO | src.eval.eval | SHAP summary plot saved to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/plots/shap_summary.png
+2025-11-05 17:09:35 | INFO | src.eval.main | SHAP summary plot saved at /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/plots/shap_summary.png
+2025-11-05 17:09:35 | INFO | src.eval.eval | Saving evaluation results to /Users/steven/Documents/Programmation/MentalHealth_CatBoost/results/run_20251105_170935

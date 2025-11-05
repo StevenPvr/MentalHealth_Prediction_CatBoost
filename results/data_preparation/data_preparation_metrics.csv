@@ -1,0 +1,3 @@
+step,rows_before,rows_after,rows_delta,note,train_rows,test_rows
+shuffle_dataset,261328,261328,0,random_state=42,,
+split_train_test,261328,261328,0,random_state=42,209062.0,52266.0

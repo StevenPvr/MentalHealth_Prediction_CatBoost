@@ -1,0 +1,42 @@
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+exclude = '\.(git|mypy_cache|ruff_cache|venv|eggs|egg-info)/|^(data|documentation|notebook|plots|results)/'
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src"]
+extend-exclude = ["data", "documentation", "notebook", "plots", "results"]
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "UP", "D", "ANN"]
+ignore = ["E501", "ANN401"]
+
+[tool.ruff.lint.per-file-ignores]
+# Allow path bootstrapping before imports in scripts/tests that need direct execution
+"src/**/test_*.py" = ["E402", "S101", "D", "ANN"]
+"src/test_*.py" = ["E402", "S101", "D", "ANN"]
+"src/conftest.py" = ["D", "ANN"]
+"src/**/__init__.py" = ["D104"]
+"src/**/main.py" = ["E402"]
+"src/main_global.py" = ["E402"]
+"src/test_global.py" = ["E402"]
+
+[tool.pyright]
+include = ["src"]
+typeCheckingMode = "basic"
+reportMissingImports = "warning"
+reportMissingTypeStubs = "warning"
+pythonVersion = "3.10"
+
+[tool.isort]
+profile = "black"
+line_length = 100
+src_paths = ["src"]
+known_first_party = ["src"]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore:numpy.ufunc size changed.*:RuntimeWarning",
+]
